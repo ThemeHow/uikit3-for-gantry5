@@ -1,0 +1,43 @@
+name: UIKit
+description: Includes all necessary CSS and JavaScript files for integrating UIKit v3.
+type: atom
+
+form:
+    fields:
+        enabled:
+            type: input.checkbox
+            label: Enabled
+            description: Globally enable UIKit atom.
+            default: true
+
+        _note:
+            type: separator.note
+            class: alert alert-info
+            content: 'This Atom loads the necessary CSS and JavaScript files directly from CDNJS-Network (https://cdnjs.com/libraries/uikit/).<br><strong>No need to copy the files locally!</storong>'
+
+        settings:
+            type: container.set
+            label: Settings
+            fields:
+                .css:
+                    type: enable.enable
+                    label: UIKit CSS
+                    default: true
+                .js:
+                    type: enable.enable
+                    label: UIKit JS
+                    default: true
+
+        version:
+            type: container.set
+            label: Version
+            fields:
+                _note:
+                    type: separator.note
+                    class: alert alert-warning
+                    content: 'Please fill in the version carefully, otherwise non-existant or wrong files will be included!<br>(No further verification implemented.)'
+                .version:
+                    type: input.text
+                    label: Version
+                    description: Specify the used version.
+                    default: '3.0.0-beta.40'
