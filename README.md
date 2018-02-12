@@ -12,8 +12,11 @@ This a small collection of self-created Gantry Particles for the different compo
  + UIKit: v3.0.0-beta.40
 
 ## Included Particles & Atoms
-### UIKit Atom (mandatory for using the UIKit Particles!)
-*...more will be added...*
+### UIKit Atom (mandatory for using the UIKit Particles below!)
++ **UIKit Atom** (uikit-for-gantry)
+
+   Includes all the necessary CSS and JS-files for UIKit.<br>
+   Files: [`uikit-for-gantry.html.twig`](https://github.com/j0hu3ttl/uikit3-for-gantry5/blob/master/custom/particles/uikit-for-gantry.html.twig) and [`uikit-for-gantry.yaml`](https://github.com/j0hu3ttl/uikit3-for-gantry5/blob/master/custom/particles/uikit-for-gantry.yaml).
 
 ### Particles
 *...more will be added...*
